@@ -3,8 +3,6 @@ import 'package:raight_code_task1/core/resources/colors.dart';
 import 'package:raight_code_task1/core/resources/fonts.dart';
 import 'package:raight_code_task1/core/resources/sizes.dart';
 import 'package:raight_code_task1/core/resources/strings.dart';
-
-import '../../../../combonents/combonent.dart';
 import '../../model/models.dart';
 import '../components/components.dart';
 import '../widgets/checkbox.dart';

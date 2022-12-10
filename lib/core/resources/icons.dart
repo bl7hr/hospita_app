@@ -10,5 +10,5 @@ class IconGeneral {
   static const String blueHome ='icons/blueHome.png';
   static const String blueHospital ='icons/blueHospital.png';
   static const String blueAction ='icons/blueAction.png';
-
+  static const String hospital ='icons/hospital.png';
 }

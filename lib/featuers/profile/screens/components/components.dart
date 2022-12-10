@@ -50,7 +50,7 @@ Widget text({
   Color clr=ColorGeneral.black,
   TextOverflow textOverflow=TextOverflow.visible,
 })=>Text('$txt',style:TextStyle(fontWeight: fontWeight,fontSize: size,color: clr,overflow: textOverflow) ,);
-
+List chipColor=[true,false,false];
 //chip**********************************chip
 Widget chip({
   double height=SizesGeneral.size50,
@@ -62,7 +62,7 @@ Widget chip({
   height: height,
   width: width,
 
-  decoration: BoxDecoration(borderRadius: BorderRadius.circular(SizesGeneral.size50),
+  decoration: BoxDecoration(borderRadius: BorderRadius.circular(SizesGeneral.size50),color: clr,
       border: Border.all(color: ColorGeneral.black)
   ),
   child: MaterialButton(onPressed: onpress,

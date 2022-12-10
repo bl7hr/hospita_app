@@ -71,7 +71,7 @@ class StringsGeneral{
   static const String devon ='images/devonMiles.png';
   static const String peter ='images/peterThornton.png';
   static const String thomas ='images/thomasMagnum.png';
-  static const String hospital ='icons/hospital.png';
+
   static const String mecheal ='images/micheal.png';
   static const String secomdimgReview ='images/secomdReview.png';
   static const String firstimgReview ='images/firstReview.png';

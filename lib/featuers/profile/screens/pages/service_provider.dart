@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:raight_code_task1/core/resources/icons.dart';
-
-import '../../../../combonents/combonent.dart';
 import '../../../../core/resources/colors.dart';
 import '../../../../core/resources/fonts.dart';
 import '../../../../core/resources/sizes.dart';

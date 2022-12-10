@@ -13,14 +13,14 @@ Widget listViewService(){
           reverse: false,
           itemBuilder:  (BuildContext context, int index)
           {
-            return  myListTile(imgeUrl: contactList[index]["image"], fullName: contactList[index]["full_name"],contactIndex:index,
-                firstIcon:contactList [index]["firstIcon"],secondIcon:contactList [index]["secondIcon"],thirdIcon:contactList [index]["thirdIcon"]   ,country: contactList[index]["country"]);
+            return  myListTile(imgeUrl: servicesList[index]["image"], fullName: servicesList[index]["full_name"],contactIndex:index,
+                firstIcon:servicesList [index]["firstIcon"],secondIcon:servicesList [index]["secondIcon"],thirdIcon:servicesList [index]["thirdIcon"]   ,country: servicesList[index]["country"]);
           } ,
           separatorBuilder: (BuildContext context, int index)=>Padding(
             padding: const EdgeInsets.only(right: 15,left: 65),
             child:SizedBox(height: SizesGeneral.size30,)
           ),
-          itemCount:  contactList.length),
+          itemCount:  servicesList.length),
     ),
   );
 }

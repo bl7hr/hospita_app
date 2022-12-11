@@ -39,7 +39,7 @@ class Patients extends StatelessWidget {
                 child: Row(
                   children: [
                     const SizedBox(width: SizesGeneral.size20,),
-                    chip(txt: StringsGeneral.any,width: SizesGeneral.size80),
+                    chip(txt: StringsGeneral.any,width: SizesGeneral.size80,clr:ColorGeneral.seacrhGrey),
                     const SizedBox(width: SizesGeneral.size9,),
                     chip(txt: StringsGeneral.sports,),
                     const SizedBox(width: SizesGeneral.size9,),
